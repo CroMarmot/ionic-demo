@@ -1004,6 +1004,13 @@
   dependencies:
     "@types/cordova" latest
 
+"@ionic-native/qr-scanner@^5.23.0":
+  version "5.23.0"
+  resolved "https://registry.npm.taobao.org/@ionic-native/qr-scanner/download/@ionic-native/qr-scanner-5.23.0.tgz#ded0098d2822332edf06b80875f8134e80b150ec"
+  integrity sha1-3tAJjSgiMy7fBrgIdfgTToCxUOw=
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/splash-screen@^5.0.0":
   version "5.23.0"
   resolved "https://registry.npm.taobao.org/@ionic-native/splash-screen/download/@ionic-native/splash-screen-5.23.0.tgz#58522f6276ac8b1550a957d2c6c173696624e06c"
@@ -2595,6 +2602,14 @@ cordova-plugin-ionic-webview@^4.1.3:
   version "4.1.3"
   resolved "https://registry.npm.taobao.org/cordova-plugin-ionic-webview/download/cordova-plugin-ionic-webview-4.1.3.tgz#7f3963208708951fedd975c0808a5d27382812a7"
   integrity sha1-fzljIIcIlR/t2XXAgIpdJzgoEqc=
+
+cordova-plugin-qrscanner@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-qrscanner/download/cordova-plugin-qrscanner-3.0.1.tgz#34af2ede5ce857ee9b4d75936e2916fead238545"
+  integrity sha1-NK8u3lzoV+6bTXWTbikW/q0jhUU=
+  dependencies:
+    qrcode-reader "^1.0.4"
+    webrtc-adapter "^3.1.4"
 
 cordova-plugin-splashscreen@^5.0.2:
   version "5.0.3"
@@ -6446,6 +6461,11 @@ qjobs@^1.1.4:
   resolved "https://registry.npm.taobao.org/qjobs/download/qjobs-1.2.0.tgz#c45e9c61800bd087ef88d7e256423bdd49e5d071"
   integrity sha1-xF6cYYAL0IfviNfiVkI73Unl0HE=
 
+qrcode-reader@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npm.taobao.org/qrcode-reader/download/qrcode-reader-1.0.4.tgz#95d9bb9e8130800361a96cb5a43124ad1d9e06b8"
+  integrity sha1-ldm7noEwgANhqWy1pDEkrR2eBrg=
+
 qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.npm.taobao.org/qs/download/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
@@ -6924,6 +6944,11 @@ schema-utils@^2.0.0, schema-utils@^2.0.1, schema-utils@^2.6.1:
   dependencies:
     ajv "^6.12.0"
     ajv-keywords "^3.4.1"
+
+sdp@^1.5.0:
+  version "1.5.4"
+  resolved "https://registry.npm.taobao.org/sdp/download/sdp-1.5.4.tgz#8e038f6ddb14bd765ae1f4b5216e12094511e0d0"
+  integrity sha1-jgOPbdsUvXZa4fS1IW4SCUUR4NA=
 
 select-hose@^2.0.0:
   version "2.0.0"
@@ -8273,6 +8298,13 @@ webpack@4.39.2:
     terser-webpack-plugin "^1.4.1"
     watchpack "^1.6.0"
     webpack-sources "^1.4.1"
+
+webrtc-adapter@^3.1.4:
+  version "3.4.3"
+  resolved "https://registry.npm.taobao.org/webrtc-adapter/download/webrtc-adapter-3.4.3.tgz#b636062eee9a6ef158acd0d8501b678434b56f16"
+  integrity sha1-tjYGLu6abvFYrNDYUBtnhDS1bxY=
+  dependencies:
+    sdp "^1.5.0"
 
 websocket-driver@>=0.5.1:
   version "0.7.3"
